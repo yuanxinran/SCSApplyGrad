@@ -321,7 +321,7 @@ button.main-button:hover {
 s
 .card-columns {
   @include media-breakpoint-only(lg) {
-    column-count: 4;
+    column-count: 3;
   }
   
   @include media-breakpoint-only(sm) {
@@ -334,10 +334,13 @@ s
   font-size: 13px;
   color: #777;
   /* letter-spacing: 0.5px; */
-  line-height: 20px;
+  line-height: 24px;
   position: relative;
   z-index: 2;
 }
+
+
+
 /* 
 ---------------------------------------------
 header

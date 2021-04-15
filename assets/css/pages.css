@@ -293,6 +293,13 @@ Section
 }
 
 
+
+/* 
+---------------------------------------------
+bottom-navigation
+--------------------------------------------- 
+*/
+
   .bottom-navigation{
     margin-top: 80px;
     margin-bottom: 60px;
@@ -312,7 +319,7 @@ Section
     right: 0px;
     font-size: 20px;
     font-weight: 300;
-    color: #760000;
+    color: #414141;
     line-height: 36px;
 
     letter-spacing: 0.5px;
@@ -321,12 +328,31 @@ Section
 
 .bottom-navigation a.active:hover{
 
-    font-weight: 400;
+    font-weight: 300;
     color: #760000;
     cursor: pointer;
 }
 
+/* 
+---------------------------------------------
+insights
+--------------------------------------------- 
+*/
 
+
+.card-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    /* letter-spacing: 0.5px; */
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.insights-card{
+    padding-bottom: 40px;
+}
 
 .page-section.highlight{
     position: relative;
@@ -372,13 +398,20 @@ Section
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
   }
 
-
+/* 
+---------------------------------------------
+page headers
+--------------------------------------------- 
+*/
 
 
   #problem-header{
     background-image: url(../images/problem/problem-header.png);
 }
 
+#ideation-header{
+    background-image: url(../images/ideation/ideation-header.png);
+}
 
 
 #research-header{
