@@ -420,8 +420,12 @@ page headers
 */
 
 
-  #problem-header{
+#problem-header{
     background-image: url(../images/problem/problem-header.png);
+}
+
+#solution-header{
+  background-image: url(../images/solution/solution-header.png);
 }
 
 #ideation-header{
@@ -433,5 +437,7 @@ page headers
     background-image: url(../images/research/research-header.png);
 }
 
-
+#about-header{
+  background-image: url(../images/about/about-header.png);
+}
 
