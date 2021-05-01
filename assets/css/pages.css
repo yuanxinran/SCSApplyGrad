@@ -5,6 +5,20 @@ ul.in-text{
   color: #555555;
 }
 
+.sidebar-container {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  display: inline-block;
+  top: 10rem;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  z-index: 5;
+}
+
+.sidebar-item {
+  color:rgb(199, 0, 0);
+}
+
 .page-welcome{
     overflow: hidden;
     position: relative;
@@ -369,6 +383,21 @@ insights
     padding-bottom: 40px;
 }
 
+.callout {
+  padding: 60px 40px;
+  background-color: #fcf5f5;
+}
+
+.callout-content {
+  font-style: italic;
+  line-height: 2.5em;
+}
+
+.callout-source {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
 .page-section.highlight{
     position: relative;
     padding: 120px 0px 90px 0px;
@@ -441,3 +470,6 @@ page headers
   background-image: url(../images/about/about-header.png);
 }
 
+#needs-identified-header{
+  background-image: url(../images/needs-identified/needs-identified-header.png);
+}
