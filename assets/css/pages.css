@@ -6,17 +6,44 @@ ul.in-text{
 }
 
 .sidebar-container {
+  /* display: inline-block; */
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  display: inline-block;
   top: 10rem;
   margin-top: 10rem;
-  margin-left: 10rem;
+  margin-left: 3rem;
   z-index: 5;
+  text-align: center;
+  border-right: solid 2px #dd6550;
 }
 
 .sidebar-item {
-  color:rgb(199, 0, 0);
+  list-style: none;
+}
+
+.sidebar-item a {
+  color: #dd6550;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar-item a:hover {
+  color: #940303;
+}
+
+/* Move the first section of each page up a bit, since the sidenav is taking a whole row (this is not the best solution) */
+.first-section {
+  margin-top: -10rem;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-container {
+    display: none;
+  }
+
+  .first-section {
+    margin-top: 0;
+  }
 }
 
 .page-welcome{
@@ -25,7 +52,6 @@ ul.in-text{
     display: flex;
     align-items: center;
     justify-content: center;
-   
     background-repeat: no-repeat;
   /*
   TRY IT ... with or without CENTER CENTER
