@@ -15,6 +15,10 @@ ul.in-text{
   color: #555555;
 }
 
+.external-link {
+  color: #760000;
+}
+
 .sidebar-container {
   /* display: inline-block; */
   position: -webkit-sticky; /* Safari */
