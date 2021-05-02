@@ -64,51 +64,39 @@
     <!-- ***** Welcome Area End ***** -->
 
     <!-- ***** Sidebar Start ***** -->
-    <div class="sidebar-container col-lg-1">
+    <!-- <div class="sidebar-container col-lg-1">
       <ul>
         <li class="sidebar-item"><a href="#section-1">Section 1</a></li>
         <li class="sidebar-item"><a href="#section-2">Section 2</a></li>
         <li class="sidebar-item"><a href="#section-3">Section 3</a></li>
         <li class="sidebar-item"><a href="#section-4">Section 4</a></li>
       </ul>
-    </div>
+    </div> -->
     <!-- ***** Sidebar End ***** -->
 
     <!-- ***** Section 1 Start ***** -->
-    <section class="section page-section first-section" id="">
+    <section class="section page-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="right-text col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
             <div class="left-heading">
-              <h4>Visualizing The Opportunities</h4>
+              <!-- <h4>Why did the client come to us?</h4> -->
             </div>
             <div class="left-text">
               <p>
-                Based on the insights we got from the speed dating interviews,
-                ML research, and competitive analysis, we constructed a reviewer
-                journey map, visualizing the pain points and design
-                opportunities in different stages during the review process.
+                Through a variety of research methods, we summarized the three needs that reviewers have during the review process and that are not well-addressed by the current system. 
+                These needs provided us with promising directions to pursue later in the summer.
               </p>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="text-center col-lg-12 col-md-12 col-sm-12 mobile-top-fix">
-            <a
-              href="https://yuanxinran.github.io/SCSApplyGrad/assets/images/needs-identified/reviewer-map.png"
-              data-toggle="lightbox"
-              data-title="Design Opportunities"
+          <div class="col-lg-12 col-md-10">
+            <img 
+              src="./assets/images/needs-identified/needs-summary.png" 
+              alt="needs-summary" 
+              class="rounded img-fluid d-block mx-auto"
             >
-              <img
-                src="assets/images/needs-identified/reviewer-map.png"
-                class="img-fluid"
-                alt="Design Opportunities"
-              />
-            </a>
-            <small class="image-subtitle">Design Opportunities</small>
           </div>
         </div>
-
         <div class="row">
           <div class="col-lg-12">
             <div class="hr"></div>
@@ -119,166 +107,85 @@
     <!-- ***** Section 1 End ***** -->
 
     <!-- ***** Section 2 Start ***** -->
-    <section class="section page-section" style="padding-bottom: 40px">
+    <section class="section page-section">
       <div class="container">
-        <!-- ***** Subsection 1 ***** -->
         <div class="row justify-content-center">
           <div class="right-text col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
-            <div class="left-heading section-header">
-              <div class="section-subtitle">Scoping down the project ...</div>
-              <div class="section-title">
-                We found most of the opportunities fall under the category of
-                improving reviewers' experience of reading application materials
-                and note-taking.
-              </div>
+            <div class="left-heading">
+              <h4>Need for Integration</h4>
+              <h6>We recommend improving ApplyGrad by fitting it better with the reviewer’s natural workflow, so that they do not need to rely on to external tools for help. </h6>
             </div>
+            <div class="left-text">
+              <p>During our research, on reviewer specifically said:</p>
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <img 
+                src="./assets/images/needs-identified/need-for-integration-main-insight.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+            </div>
+            <div class="left-text">
+              <p><br><br>Throughout a reviewer’s journey, there are many obstacles they encounter when trying to get their reviews done. We summarized the common obstales in each step of the review in the following image:</p>
+            </div>
+            <div class="col-lg-12 col-md-8">
+              <img 
+                src="./assets/images/needs-identified/reviewer-obstacles.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+            </div>
+            <div class="left-text">
+              <p><br><br>However, some of the obstacles reviewers can be addressed using the current functionalities in ApplyGrad. For example, in the first step, reviewer can actually use ApplyGrad to sort applications by the people they are assigned to, thus finding the ones that they are assigned to.</p>
+            </div>
+            <div class="col-lg-12 col-md-8 text-center justify-content-center">
+              <img 
+                src="./assets/images/needs-identified/applygrad-checking-applications.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+              <small class="image-description"><br>By sorting the "Rcvd By" column, reviewers can see applications assigned to them aggregated together</small>
+            </div>
+            
+            <div class="left-text">
+              <p><br>But during our interviews，many reviewers expressed they were simply not aware of this functionality, similar for many other functionalities. In many cases, hierarchy of layout and filters in ApplyGrad are not clear, so reviewers cannot sort in the way that they want. This leads to our first insight:</p>
+            </div>
+            <div class="left-text">
+              <p class="insight">ApplyGrad provides a lot of features, <br> but many reviewers don’t notice them.</p>
+            </div>
+
           </div>
         </div>
-        <!-- ***** Subsection 1 End***** -->
-        <!-- ***** Subsection 2 Start***** -->
-        <div class="row justify-content-center section-subsection">
-          <div class="col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
-            <h5>Conceptual Prototype &nbsp</h5>
-            <p>
-              To test the perceived user need for a better review system, we
-              created a conceptual prototype of a highlighting and note-taking
-              system using the Google Doc and the Wizard-of-Oz approach. <br />
-            </p>
-          </div>
-          <div
-            class="text-center col-lg-12 col-md-12 col-sm-12 mobile-top-fix image-section"
-          >
-            <img
-              src="assets/images/needs-identified/conceptual.png"
-              class="img-fluid"
-              alt="Conceptual Prototype"
-            />
-            <small class="image-subtitle">Conceptual Prototype</small>
-          </div>
-          <div class="col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
-            <p style="margin-bottom: 15px">
-              There will be three applications for each reviewer to read, each
-              consisting of a personal statement and resume:
-            </p>
-            <ul class="in-text" style="padding-left: 20px">
-              <li>
-                <strong>First Application (Baseline):</strong> The reviewer
-                would think aloud as they go through the documents.
-              </li>
-              <li>
-                <strong>Second Application (Manual Highlighting): </strong>The
-                reviewer will use the normal Google Document functions of
-                highlighting and commenting in their review.
-              </li>
-              <li>
-                <strong
-                  >Third Application (Auto-Highlighting & Tagging):</strong
-                >
-                While the reviewer has been working on the first two
-                applications, the team will take note of which pieces of
-                information the reviewer deems most important and highlight
-                analogous information in the third application.When the reviewer
-                has completed their review of the first two applications, they
-                will begin their review of the third application which has
-                already been highlighted, which mimics the function of a
-                potential ML solution.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ***** Subsection 2 End***** -->
-
-        <!-- ***** Subsection 3 Start***** -->
-
-        <div
-          class="row justify-content-end section-subsection"
-          style="margin-bottom: 0px; margin-top: 140px"
-        >
-          <div class="text-center col-lg-5 col-md-12 col-sm-12 mobile-top-fix callout">
-            <p class="callout-content">
-              "HelloHelloHelloHelloHe lloHelloHelloHelloHelloHelloHello"
-            </p>
-            <p class="callout-source">
-              –– Reviewer
-            </p>
-          </div>
-        </div>
-
-        <!-- ***** Subsection 3 End***** -->
-
-
-
-        <!-- ***** Subsection 4 Start***** -->
-        <div
-          class="row justify-content-center section-subsection"
-          style="margin-bottom: 0px; margin-top: 140px"
-        >
-          <div class="text-center col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
-            <h3>Key Insights (WIP!!!!)</h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hr"></div>
           </div>
         </div>
       </div>
-        <!-- ***** Subsection 4 End***** -->
     </section>
     <!-- ***** Section 2 End ***** -->
 
-    <!-- ***** Insights Start ***** -->
-    <section class="section page-section highlight">
+    <!-- ***** Section 2 Start ***** -->
+    <section class="section bottom-navigation">
       <div class="container">
-        <div class="row">
-          <div class="card-deck">
-            <div class="card insights-card text-center">
-              <div class="card-body">
-                <img
-                  class="card-img-top"
-                  src="assets/images/needs-identified/insight1.png"
-                  alt="Card image cap"
-                />
-                <h5 class="card-title">WIP</h5>
-                <p class="card-text">
-                  Many administrators and review committees use Excel and Google
-                  spreadsheets to filter and organize applicant data. They also
-                  use them to input their comments and evaluations.
-                </p>
-              </div>
-            </div>
-            <div class="card insights-card text-center">
-              <div class="card-body">
-                <img
-                  class="card-img-top"
-                  src="assets/images/needs-identified/insight2.png"
-                  alt="Card image cap"
-                />
-                <h5 class="card-title">WIP</h5>
-                <p class="card-text">
-                  While departments might have different criteria for evaluating
-                  applicants, their general review process is similar and want
-                  to make a right and fair decision
-                </p>
-              </div>
-            </div>
-            <div class="card insights-card text-center">
-              <div class="card-body">
-                <img
-                  class="card-img-top"
-                  src="assets/images/needs-identified/insight3.png"
-                  alt="Card image cap"
-                />
-                <h5 class="card-title">WIP</h5>
-                <p class="card-text">
-                  Because they have been using ApplyGrad for several years,
-                  departments have various ways of training new users and
-                  additional tools that can help them accomplish functions that
-                  are not available in the system.
-                </p>
-              </div>
-            </div>
+        <!-- ***** Section Title Start ***** -->
+        <div class="row justify-content-between">
+          <div class="col-lg-5">
+            <a class="inactive" style="position: absolute; right: 0px"
+              ><i class="fa fa-chevron-left" style="font-size: 18px"></i>
+              Previous</a
+            >
+          </div>
+          <div class="col-lg-5">
+            <a class="active" href="./research.html"
+              >Next: Research
+              <i class="fa fa-chevron-right" style="font-size: 18px"></i
+            ></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- ***** Insights End ***** -->
-
+    <!-- ***** Section 2 End ***** -->
     <!-- ***** Bottom Navigation Start ***** -->
     <section class="section bottom-navigation">
       <div class="container">
