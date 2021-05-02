@@ -48,7 +48,7 @@
               data-scroll-reveal="enter left move 30px over 0.5s after 0.4s"
             >
               <h1>Design</h1>
-              <p>What design solutions are we proposing?</p>
+              <p>What design opportunities have we identified?</p>
             </div>
           </div>
         </div>
@@ -63,31 +63,21 @@
         <div class="row justify-content-center">
           <div class="right-text col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
             <div class="left-heading">
-              <h4>Why did the client come to us?</h4>
+              <!-- <h4>Why did the client come to us?</h4> -->
             </div>
             <div class="left-text">
               <p>
-                The Carnegie Mellon University School of Computer Science has
-                designed, developed and deployed “ApplyGrad,” a system for
-                managing applications to 23 Executive Education courses, 3 REU
-                programs as well as 47 masters and doctoral graduate programs in
-                computational biology, computer science, human-computer
-                interaction, language technologies, machine learning, software
-                engineering and robotics.
-                <br />
-                <br />
-                As the fields of machine learning and artificial intelligence
-                continue to grow, so does the popularity of Computer Science
-                graduate programs. Carnegie Mellon’s School of Computer Science
-                is no exception. But with this popularity comes an increasing
-                number of applicants; in the 2019–2020 application cycle, over
-                10,000 applications were submitted to SCS alone. While this is
-                an exciting opportunity for the department, how can the graduate
-                application process be improved to help address the growing
-                workload for admissions reviewers as well as envision the next
-                generation of graduate applications systems?
+                Through a variety of research methods, we summarized the three needs that reviewers have during the review process and that are not well-addressed by the current system. 
+                These needs provided us with promising directions to pursue later in the summer.
               </p>
             </div>
+          </div>
+          <div class="col-lg-12 col-md-10">
+            <img 
+              src="./assets/images/design/needs-summary.png" 
+              alt="needs-summary" 
+              class="rounded img-fluid d-block mx-auto"
+            >
           </div>
         </div>
         <div class="row">
@@ -105,28 +95,43 @@
         <div class="row justify-content-center">
           <div class="right-text col-lg-10 col-md-10 col-sm-12 mobile-top-fix">
             <div class="left-heading">
-              <h4>Client's Goals</h4>
-              <h6>Near-term Tactical and Long-Term Strategic</h6>
+              <h4>Need for Integration</h4>
+              <h6>We recommend improving ApplyGrad by fitting it better with the reviewer’s natural workflow, so that they do not need to rely on to external tools for help. </h6>
             </div>
-            <div style="padding-left: 20px">
-              <ul>
-                <li>
-                  Identify usability improvement opportunities for Apply Grad
-                  and design improved interactions, workflows and patterns
-                </li>
-
-                <li>
-                  Envision a system that creates a strategic advantage for SCS
-                  graduate programs and delivers benefits to CMU employees,
-                  applicants and alumni
-                </li>
-                <li>
-                  Exploring the use of advanced technology to showcase advanced
-                  capabilities such as intelligence, automation, configurability
-                  and adaptivity to drive consensus among the community of
-                  captive users
-                </li>
-              </ul>
+            <div class="left-text">
+              <p>During our research, on reviewer specifically said:</p>
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <img 
+                src="./assets/images/design/need-for-integration-main-insight.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+            </div>
+            <div class="left-text">
+              <p><br><br>Throughout a reviewer’s journey, there are many obstacles to getting their reviews done. We summarized the common obstales in each step of the review in the following image:</p>
+            </div>
+            <div class="col-lg-12 col-md-8">
+              <img 
+                src="./assets/images/design/reviewer-obstacles.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+            </div>
+            <div class="left-text">
+              <p><br><br>However, some of the obstacles reviewers can be addressed using the current functionalities in ApplyGrad. For example, in the first step, reviewer can actually use ApplyGrad to sort applications by the people they are assigned to, thus finding the ones that they are assigned to.</p>
+            </div>
+            <div class="col-lg-12 col-md-8 text-center justify-content-center">
+              <img 
+                src="./assets/images/design/applygrad-checking-applications.png" 
+                alt="needs-summary" 
+                class="rounded img-fluid d-block mx-auto"
+              >
+              <small class="image-description"><br>By sorting the "Rcvd By" column, reviewers can see applications assigned to them aggregated together</small>
+            </div>
+            
+            <div class="left-text">
+              <p><br>But many reviewers expressed they were simply not aware of this functionality during our interviews, similar for many other functionalities. In many cases, hierarchy of layout and filters in ApplyGrad are not clear, so reviewers cannot sort in the way that they want.</p>
             </div>
           </div>
         </div>

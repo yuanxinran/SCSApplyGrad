@@ -183,6 +183,13 @@ Section
     font-weight: 400;
 }
 
+.image-description {
+    color:rgb(145, 145, 145);
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
 .page-section .section-header{
     width: 80%;
     margin-bottom: 80px;
@@ -490,6 +497,10 @@ page headers
 
 #research-header{
     background-image: url(../images/research/research-header.png);
+}
+
+#progress-header{
+  background-image: url(../images/progress/progress-header.png);
 }
 
 #about-header{
