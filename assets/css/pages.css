@@ -416,6 +416,13 @@ insights
     padding-bottom: 40px;
 }
 
+.insight {
+  font-family: 'PT Serif';
+  font-size: 2em;
+  line-height: 1.4em;
+  color: #C88279;
+}
+
 .callout {
   padding: 60px 40px;
   background-color: #fcf5f5;
