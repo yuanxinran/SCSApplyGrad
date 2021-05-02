@@ -5,6 +5,16 @@ ul.in-text{
   color: #555555;
 }
 
+.page-section ul {
+  padding-left: 20px; 
+}
+
+.page-section ul li {
+  font-size: 17px;
+  line-height: 30px;
+  color: #555555;
+}
+
 .sidebar-container {
   /* display: inline-block; */
   position: -webkit-sticky; /* Safari */
@@ -279,12 +289,13 @@ Section
   }
   
   .page-section h4 {
-    font-size: 22px;
+    font-size: 1.7em;
     font-weight: 600;
-    color: #1e1e1e;
-    line-height: 36px;
+    color: #b94343;
+    line-height: 1.4em;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
+    font-family: 'PT Serif';
   }
 
   .page-section h5 {
@@ -420,6 +431,7 @@ insights
   font-family: 'PT Serif';
   font-size: 2em;
   line-height: 1.4em;
+  font-weight: bold;
   color: #C88279;
 }
 
@@ -506,8 +518,8 @@ page headers
     background-image: url(../images/research/research-header.png);
 }
 
-#progress-header{
-  background-image: url(../images/progress/progress-header.png);
+#process-header{
+  background-image: url(../images/process/process-header.png);
 }
 
 #about-header{
