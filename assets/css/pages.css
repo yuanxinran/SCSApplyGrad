@@ -6,7 +6,7 @@ ul.in-text{
 }
 
 .page-section ul {
-  padding-left: 20px; 
+  padding-left: 30px; 
 }
 
 .page-section ul li {
@@ -14,6 +14,17 @@ ul.in-text{
   line-height: 30px;
   color: #555555;
 }
+
+.page-section ol {
+  padding-left: 30px; 
+}
+
+.page-section ol li {
+  font-size: 17px;
+  line-height: 30px;
+  color: #555555;
+}
+
 
 .external-link {
   color: #760000;
