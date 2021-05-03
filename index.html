@@ -43,47 +43,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav">
-              <!-- ***** Logo Start ***** -->
-              <a href="./index.html" class="logo">SCS ApplyGrad</a>
-              <!-- ***** Logo End ***** -->
-              <!-- ***** Menu Start ***** -->
-              <ul class="nav">
-                <li class="scroll-to-section">
-                  <a href="./index.html" class="active">Home</a>
-                </li>
-                <li class="submenu">
-                  <a href="javascript:;">Research</a>
-                  <ul>
-                    <li><a href="./problem.html">01 Problem</a></li>
-                    <li><a href="./research.html">02 Research Process</a></li>
-                    <li><a href="./ideation.html">03 Ideation</a></li>
-                  </ul>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="./design.html">Design</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="./solution.html">Final Solution</a>
-                </li>
-
-                <li class="scroll-to-section">
-                  <a href="">About Us</a>
-                </li>
-              </ul>
-              <a class="menu-trigger">
-                <span>Menu</span>
-              </a>
-              <!-- ***** Menu End ***** -->
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div id="header"></div>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Welcome Area Start ***** -->
@@ -96,7 +56,7 @@
               class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
               data-scroll-reveal="enter left move 30px over 0.5s after 0.4s"
             >
-              <h1>Envisioning the Next Generation Graduate Program System</h1>
+              <h1>Envisioning the Next Generation Graduate Application System</h1>
               <p style="color: #f0f0f0">
                 <strong>SCS ApplyGrad x Super Cool Scholars</strong>
               </p>
@@ -130,7 +90,7 @@
               src="assets/images/home/problem-space.png"
               class="rounded img-fluid d-block mx-auto"
               alt="App"
-            />
+            /> 
           </div>
           <div class="right-text col-lg-7 col-md-12 col-sm-12 mobile-top-fix">
             <div class="left-heading">
@@ -138,10 +98,10 @@
             </div>
             <div class="left-text">
               <p>
-                The Carnegie Mellon University School of Computer Science has
-                designed, developed and deployed “ApplyGrad,” a system for
+                The Carnegie Mellon University School of Computer Science (SCS) has
+                designed, developed and deployed “ApplyGrad”, a system for
                 managing applications to 47 masters and doctoral graduate
-                programs across six SCS departments.
+                programs across 6 SCS departments.
                 <br />
                 <br />
                 As the fields of machine learning and artificial intelligence
@@ -439,27 +399,18 @@
     <!-- ***** Team Carousel End ***** -->
 
     <!-- ***** Footer Start ***** -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 col-md-12 col-sm-12">
-            <p class="copyright">
-              Copyright &copy; 2020 MHCI Super Cool Scholars Team
-            </p>
-          </div>
-          <div class="col-lg-5 col-md-12 col-sm-12">
-            <ul class="social">
-              <li>
-                <a href="#"><i class="fa fa-medium"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- load in header and footer-->
+    <script>
+      $(function() {
+        $("#header").load("./header.html");
+        $("#footer").load("./footer.html");
+      });
+    </script>
 
     <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>

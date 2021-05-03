@@ -5,13 +5,78 @@ ul.in-text{
   color: #555555;
 }
 
+.page-section ul {
+  padding-left: 30px; 
+}
+
+.page-section ul li {
+  font-size: 17px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.page-section ol {
+  padding-left: 30px; 
+}
+
+.page-section ol li {
+  font-size: 17px;
+  line-height: 30px;
+  color: #555555;
+}
+
+
+.external-link {
+  color: #760000;
+}
+
+.sidebar-container {
+  /* display: inline-block; */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10rem;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  z-index: 5;
+  text-align: center;
+  border-right: solid 2px #dd6550;
+}
+
+.sidebar-item {
+  list-style: none;
+}
+
+.sidebar-item a {
+  color: #dd6550;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar-item a:hover {
+  color: #940303;
+}
+
+/* Move the first section of each page up a bit, since the sidenav is taking a whole row (this is not the best solution) */
+.first-section {
+  margin-top: -10rem;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-container {
+    display: none;
+  }
+
+  .first-section {
+    margin-top: 0;
+  }
+}
+
 .page-welcome{
     overflow: hidden;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-   
     background-repeat: no-repeat;
   /*
   TRY IT ... with or without CENTER CENTER
@@ -143,6 +208,13 @@ Section
     font-weight: 400;
 }
 
+.image-description {
+    color:rgb(145, 145, 145);
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
 .page-section .section-header{
     width: 80%;
     margin-bottom: 80px;
@@ -232,12 +304,13 @@ Section
   }
   
   .page-section h4 {
-    font-size: 22px;
+    font-size: 1.7em;
     font-weight: 600;
-    color: #1e1e1e;
-    line-height: 36px;
+    color: #b94343;
+    line-height: 1.4em;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
+    font-family: 'PT Serif';
   }
 
   .page-section h5 {
@@ -369,6 +442,29 @@ insights
     padding-bottom: 40px;
 }
 
+.insight {
+  font-family: 'PT Serif';
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: bold;
+  color: #C88279;
+}
+
+.callout {
+  padding: 60px 40px;
+  background-color: #fcf5f5;
+}
+
+.callout-content {
+  font-style: italic;
+  line-height: 2.5em;
+}
+
+.callout-source {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
 .page-section.highlight{
     position: relative;
     padding: 120px 0px 90px 0px;
@@ -420,8 +516,12 @@ page headers
 */
 
 
-  #problem-header{
+#problem-header{
     background-image: url(../images/problem/problem-header.png);
+}
+
+#solution-header{
+  background-image: url(../images/solution/solution-header.png);
 }
 
 #ideation-header{
@@ -433,5 +533,14 @@ page headers
     background-image: url(../images/research/research-header.png);
 }
 
+#process-header{
+  background-image: url(../images/process/process-header.png);
+}
 
+#about-header{
+  background-image: url(../images/about/about-header.png);
+}
 
+#needs-identified-header{
+  background-image: url(../images/needs-identified/needs-identified-header.png);
+}
