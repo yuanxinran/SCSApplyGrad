@@ -56,11 +56,6 @@ ul.in-text{
   color: #940303;
 }
 
-.center-text {
-  padding: fixed;
-  text-align: center;
-}
-
 /* Move the first section of each page up a bit, since the sidenav is taking a whole row (this is not the best solution) */
 .first-section {
   margin-top: -10rem;
@@ -473,6 +468,8 @@ insights
 .callout {
   padding: 60px 40px;
   background-color: #fcf5f5;
+  font-family: 'PT Serif';
+  margin: 1rem auto;
 }
 
 .callout-content {
