@@ -1,3 +1,8 @@
+img {
+  margin: 30px auto 5px;
+  border-radius: 5px;
+}
+
 ul.in-text{
   margin-bottom: 0px;
   font-size: 17px;
@@ -232,7 +237,7 @@ Section
     color:rgb(145, 145, 145);
     letter-spacing: 1px;
     font-weight: 400;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .page-section .section-header{
@@ -565,4 +570,11 @@ page headers
 
 #needs-identified-header{
   background-image: url(../images/needs-identified/needs-identified-header.png);
+}
+
+
+
+#sprint-planning-img {
+  width: 20vw;
+  margin: auto;
 }
