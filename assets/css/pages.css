@@ -85,6 +85,12 @@ ul.in-text{
   border-radius: 5px;
 }
 
+.home-page-title {
+  font-family: 'PT Serif';
+  line-height: 3rem !important;
+  color: #f0f0f0;
+}
+
 .page-welcome{
     overflow: hidden;
     position: relative;
